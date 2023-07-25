@@ -1,0 +1,21 @@
+{
+  "name": "evening_87_js",
+  "version": "1.0.0",
+  "description": "- Термінал",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel ./src/js -d build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.22.9",
+    "@babel/core": "^7.22.9",
+    "@babel/preset-env": "^7.22.9",
+    "babel-preset-minify": "^0.5.2"
+  },
+  "dependencies": {
+    "throttle": "^1.0.3"
+  }
+}
